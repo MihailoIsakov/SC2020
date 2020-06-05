@@ -1,0 +1,18 @@
+# Ignore the data and saved figures
+data/
+pdfs/
+experiments/results/
+
+# Ignore some of the notebook metadata, figures, etc
+notebooks/.ipynb_checkpoints/
+notebooks/.cache/
+notebooks/figs/
+notebooks/
+
+# Vim temporary files 
+*.swp
+
+# pycache and joblib cache
+__pycache__/
+.joblib_cache/
+*.cache/
